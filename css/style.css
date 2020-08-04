@@ -36,9 +36,15 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    padding: 0 47px;
+    padding: 20px 40px;
     color: #948e8eb5;
-    padding-right: 0;
+    transition: all 0.4s linear;
+}
+nav ul li a:hover{
+	
+background: red;
+	
+color: white;
 }
 
 .banner-section{}
@@ -113,7 +119,14 @@ footer{
 .copyright ul li a{
     text-decoration: none;
     color: black;
-    padding: 0 15px;
+    padding: 8px 16px;
+    transition: all 0.4s linear;
+}
+.copyright ul li a:hover{
+
+background: red;
+
+color: white;
 }
 
 .social{}
@@ -123,6 +136,13 @@ footer{
 }
 .social ul li{}
 .social ul li a{
-    padding: 0 20px;
+    padding: 8px 16px;
     color: black;
+    transition: all 0.4s linear;
+}
+.social ul li a:hover{
+
+background: red;
+
+color: white;
 }
